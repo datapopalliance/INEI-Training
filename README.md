@@ -17,11 +17,11 @@ pip install -r requirements.txt
 
 
 
-Nota: para que el comando anterior funcione, uno debe de estar situado dentro de la terminal, en la carpeta donde se encuentra el archivo requirements.txt
+Nota: para que el comando anterior funcione, uno debe de estar situado dentro de la terminal, en la carpeta donde se encuentra el archivo requirements.txt .
 
 
 
-Una vez que se tiene el ambiente con las paqueterias necesarias, se puede ver el archivo dentro de jupyter corriendo el siguiente comando en la terminal
+Una vez que se tiene el ambiente con las paqueterias necesarias, se puede ver el archivo dentro de jupyter corriendo el siguiente comando en la terminal:
 
 
 
@@ -31,11 +31,11 @@ jupyter-lab
 
 
 
-Para saber mejor como funciona jupyter-lab visite el siguiente [link](https://jupyterlab.readthedocs.io/en/latest/)
+Para saber mejor como funciona jupyter-lab visite el siguiente [link](https://jupyterlab.readthedocs.io/en/latest/).
 
 
 
-En caso de que se quiera ver el archivo .ipynb como presentacion, se deben instalar algunas extensiones de jupyter con el siguiente comando en la terminal
+En caso de que se quiera ver el archivo .ipynb como presentacion, se deben instalar algunas extensiones de jupyter con el siguiente comando en la terminal:
 
 
 
@@ -57,8 +57,8 @@ jupyter nbconvert Imagenes_satelitales_para_medir_los_Objetivos_de_Desarrollo_So
 
 ## Otros Datos
 
-como la carpeta *media* es muy pesada para Github, estos datos se tienen que descargar de la carpeta Drive que se les compartió para que el código pueda correr correctamente
+como la carpeta *media* es muy pesada para Github, estos datos se tienen que descargar de la carpeta Drive que se les compartió para que el código pueda correr correctamente.
 
 ## html
 
-En caso de que usted no maneje python, se puede ver la presentación dándole click al archivo html que viene en el repositorio
+En caso de que usted no maneje python, se puede clonar el repositorio y ver la presentación dándole click al archivo html que viene en el repositorio. Porfavor, no cambie el archivo html de carpeta porque, si no, no se van a poder ver algunas imágenes.
