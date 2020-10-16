@@ -145,7 +145,6 @@ cython_debug/
 _build/
 
 # others
-*.png
 *.tiff
 .DS_Store
 .idea/
