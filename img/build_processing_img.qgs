@@ -1,0 +1,585 @@
+<!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
+<qgis projectname="" version="2.18.16">
+  <title></title>
+  <autotransaction active="0"/>
+  <evaluateDefaultValues active="0"/>
+  <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="">
+    <customproperties/>
+    <layer-tree-layer expanded="1" providerKey="gdal" checked="Qt::Checked" id="urbFootprint_t320200323180325435" source="/media/DATA/Landsat/data/Mexico/vector/urbFootprint_t3.img" name="urbFootprint_t3">
+      <customproperties>
+        <property key="overview" value="1"/>
+      </customproperties>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="0" providerKey="gdal" checked="Qt::Unchecked" id="LC08_L1TP_026047_20140216_20170307_01_T1_B420200323185625275" source="/media/DATA/Landsat/data/Mexico2/img/LC08_L1TP_026047_20140216_20170307_01_T1_B4.TIF" name="LC08_L1TP_026047_20140216_20170307_01_T1_B4">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="0" providerKey="gdal" checked="Qt::Unchecked" id="LC08_L1TP_026046_20140216_20170307_01_T1_B220200323185133655" source="/media/DATA/Landsat/data/Mexico/img/LC08_L1TP_026046_20140216_20170307_01_T1_B2.TIF" name="LC08_L1TP_026046_20140216_20170307_01_T1_B2">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="1" providerKey="gdal" checked="Qt::Checked" id="mexico2_rgb20200323180638757" source="mexico2_rgb.vrt" name="mexico2_rgb">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="1" providerKey="gdal" checked="Qt::Unchecked" id="mexico_rgb20200323180232053" source="mexico_rgb" name="mexico_rgb">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="1" providerKey="gdal" checked="Qt::Checked" id="urbFootprint_t320200323170900985" source="/media/DATA/Landsat/data/Santiago/vector/urbFootprint_t3.img" name="urbFootprint_t3">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="1" providerKey="gdal" checked="Qt::Checked" id="santiago_rgb20200323170735310" source="santiago_rgb.vrt" name="santiago_rgb">
+      <customproperties/>
+    </layer-tree-layer>
+  </layer-tree-group>
+  <relations/>
+  <mapcanvas>
+    <units>meters</units>
+    <extent>
+      <xmin>-2937369.13117775227874517</xmin>
+      <ymin>2340524.74666147399693727</ymin>
+      <xmax>-2576961.83653205540031195</xmax>
+      <ymax>2607419.55540985334664583</ymax>
+    </extent>
+    <rotation>0</rotation>
+    <projections>1</projections>
+    <destinationsrs>
+      <spatialrefsys>
+        <proj4>+proj=utm +zone=19 +datum=WGS84 +units=m +no_defs</proj4>
+        <srsid>3103</srsid>
+        <srid>32619</srid>
+        <authid>EPSG:32619</authid>
+        <description>WGS 84 / UTM zone 19N</description>
+        <projectionacronym>utm</projectionacronym>
+        <ellipsoidacronym>WGS84</ellipsoidacronym>
+        <geographicflag>false</geographicflag>
+      </spatialrefsys>
+    </destinationsrs>
+    <rendermaptile>0</rendermaptile>
+    <layer_coordinate_transform_info>
+      <layer_coordinate_transform destAuthId="EPSG:32619" srcAuthId="EPSG:32614" srcDatumTransform="-1" destDatumTransform="-1" layerid="urbFootprint_t320200323180325435"/>
+      <layer_coordinate_transform destAuthId="EPSG:32619" srcAuthId="EPSG:32619" srcDatumTransform="-1" destDatumTransform="-1" layerid="urbFootprint_t320200323170900985"/>
+      <layer_coordinate_transform destAuthId="EPSG:32619" srcAuthId="EPSG:32614" srcDatumTransform="-1" destDatumTransform="-1" layerid="mexico2_rgb20200323180638757"/>
+      <layer_coordinate_transform destAuthId="EPSG:32619" srcAuthId="EPSG:32614" srcDatumTransform="-1" destDatumTransform="-1" layerid="mexico_rgb20200323180232053"/>
+      <layer_coordinate_transform destAuthId="EPSG:32619" srcAuthId="EPSG:32619" srcDatumTransform="-1" destDatumTransform="-1" layerid="santiago_rgb20200323170735310"/>
+    </layer_coordinate_transform_info>
+  </mapcanvas>
+  <layer-tree-canvas>
+    <custom-order enabled="0">
+      <item>santiago_rgb20200323170735310</item>
+      <item>urbFootprint_t320200323170900985</item>
+      <item>mexico_rgb20200323180232053</item>
+      <item>urbFootprint_t320200323180325435</item>
+      <item>mexico2_rgb20200323180638757</item>
+      <item>LC08_L1TP_026046_20140216_20170307_01_T1_B220200323185133655</item>
+      <item>LC08_L1TP_026047_20140216_20170307_01_T1_B420200323185625275</item>
+    </custom-order>
+  </layer-tree-canvas>
+  <legend updateDrawingOrder="true">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="urbFootprint_t3" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="1" layerid="urbFootprint_t320200323180325435" visible="1"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="LC08_L1TP_026047_20140216_20170307_01_T1_B4" showFeatureCount="0">
+      <filegroup open="false" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="LC08_L1TP_026047_20140216_20170307_01_T1_B420200323185625275" visible="0"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="LC08_L1TP_026046_20140216_20170307_01_T1_B2" showFeatureCount="0">
+      <filegroup open="false" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="LC08_L1TP_026046_20140216_20170307_01_T1_B220200323185133655" visible="0"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="mexico2_rgb" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="mexico2_rgb20200323180638757" visible="1"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="mexico_rgb" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="mexico_rgb20200323180232053" visible="0"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="urbFootprint_t3" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="urbFootprint_t320200323170900985" visible="1"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="santiago_rgb" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="santiago_rgb20200323170735310" visible="1"/>
+      </filegroup>
+    </legendlayer>
+  </legend>
+  <projectlayers>
+    <maplayer minimumScale="inf" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+      <extent>
+        <xmin>407985</xmin>
+        <ymin>2120085</ymin>
+        <xmax>636015</xmax>
+        <ymax>2352915</ymax>
+      </extent>
+      <id>LC08_L1TP_026046_20140216_20170307_01_T1_B220200323185133655</id>
+      <datasource>/media/DATA/Landsat/data/Mexico/img/LC08_L1TP_026046_20140216_20170307_01_T1_B2.TIF</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>LC08_L1TP_026046_20140216_20170307_01_T1_B2</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=utm +zone=14 +datum=WGS84 +units=m +no_defs</proj4>
+          <srsid>3098</srsid>
+          <srid>32614</srid>
+          <authid>EPSG:32614</authid>
+          <description>WGS 84 / UTM zone 14N</description>
+          <projectionacronym>utm</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties>
+        <property key="embeddedWidgets/count" value="0"/>
+        <property key="identify/format" value="Value"/>
+      </customproperties>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="0"/>
+      </noData>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer opacity="1" alphaBand="-1" classificationMax="18179" classificationMinMaxOrigin="CumulativeCutFullExtentEstimated" band="1" classificationMin="0" type="singlebandpseudocolor">
+          <rasterTransparency>
+            <singleValuePixelList>
+              <pixelListEntry min="0" max="1" percentTransparent="30"/>
+            </singleValuePixelList>
+          </rasterTransparency>
+          <rastershader>
+            <colorrampshader colorRampType="INTERPOLATED" clip="0">
+              <item alpha="255" value="0" label="0" color="#040405"/>
+              <item alpha="255" value="2363.3" label="2363.3" color="#deebf7"/>
+              <item alpha="255" value="4726.5" label="4726.5" color="#c6dbef"/>
+              <item alpha="255" value="7089.8" label="7089.8" color="#9ecae1"/>
+              <item alpha="255" value="9453.1" label="9453.1" color="#6baed6"/>
+              <item alpha="255" value="11816" label="11816" color="#4292c6"/>
+              <item alpha="255" value="14180" label="14180" color="#2171b5"/>
+              <item alpha="255" value="16361" label="16361" color="#08519c"/>
+              <item alpha="255" value="18179" label="18179" color="#08306b"/>
+            </colorrampshader>
+          </rastershader>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer minimumScale="inf" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+      <extent>
+        <xmin>373185</xmin>
+        <ymin>1960485</ymin>
+        <xmax>601215</xmax>
+        <ymax>2193315</ymax>
+      </extent>
+      <id>LC08_L1TP_026047_20140216_20170307_01_T1_B420200323185625275</id>
+      <datasource>/media/DATA/Landsat/data/Mexico2/img/LC08_L1TP_026047_20140216_20170307_01_T1_B4.TIF</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>LC08_L1TP_026047_20140216_20170307_01_T1_B4</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=utm +zone=14 +datum=WGS84 +units=m +no_defs</proj4>
+          <srsid>3098</srsid>
+          <srid>32614</srid>
+          <authid>EPSG:32614</authid>
+          <description>WGS 84 / UTM zone 14N</description>
+          <projectionacronym>utm</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties>
+        <property key="embeddedWidgets/count" value="0"/>
+        <property key="identify/format" value="Value"/>
+      </customproperties>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="0"/>
+      </noData>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer opacity="1" alphaBand="0" classificationMax="11899" classificationMinMaxOrigin="CumulativeCutFullExtentEstimated" band="1" classificationMin="0" type="singlebandpseudocolor">
+          <rasterTransparency>
+            <singleValuePixelList>
+              <pixelListEntry min="0" max="1" percentTransparent="30"/>
+              <pixelListEntry min="1" max="11899" percentTransparent="30"/>
+            </singleValuePixelList>
+          </rasterTransparency>
+          <rastershader>
+            <colorrampshader colorRampType="INTERPOLATED" clip="0">
+              <item alpha="255" value="0" label="0" color="#050404"/>
+              <item alpha="255" value="1546.9" label="1546.9" color="#fee0d2"/>
+              <item alpha="255" value="3093.7" label="3093.7" color="#fcbba1"/>
+              <item alpha="255" value="4640.6" label="4640.6" color="#fc9272"/>
+              <item alpha="255" value="6187.5" label="6187.5" color="#fb6a4a"/>
+              <item alpha="255" value="7734.4" label="7734.4" color="#ef3b2c"/>
+              <item alpha="255" value="9281.2" label="9281.2" color="#cb181d"/>
+              <item alpha="255" value="10709" label="10709" color="#a50f15"/>
+              <item alpha="255" value="11899" label="11899" color="#67000d"/>
+            </colorrampshader>
+          </rastershader>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+      <extent>
+        <xmin>373185</xmin>
+        <ymin>1960485</ymin>
+        <xmax>601215</xmax>
+        <ymax>2193315</ymax>
+      </extent>
+      <id>mexico2_rgb20200323180638757</id>
+      <datasource>../../../../../../../../mexico2_rgb.vrt</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>mexico2_rgb</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=utm +zone=14 +datum=WGS84 +units=m +no_defs</proj4>
+          <srsid>3098</srsid>
+          <srid>32614</srid>
+          <authid>EPSG:32614</authid>
+          <description>WGS 84 / UTM zone 14N</description>
+          <projectionacronym>utm</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties>
+        <property key="identify/format" value="Value"/>
+      </customproperties>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="0"/>
+        <noDataList bandNo="2" useSrcNoData="0"/>
+        <noDataList bandNo="3" useSrcNoData="0"/>
+      </noData>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer opacity="1" alphaBand="-1" blueBand="3" greenBand="2" type="multibandcolor" redBand="1">
+          <rasterTransparency/>
+          <redContrastEnhancement>
+            <minValue>0</minValue>
+            <maxValue>11899</maxValue>
+            <algorithm>StretchToMinimumMaximum</algorithm>
+          </redContrastEnhancement>
+          <greenContrastEnhancement>
+            <minValue>0</minValue>
+            <maxValue>10683</maxValue>
+            <algorithm>StretchToMinimumMaximum</algorithm>
+          </greenContrastEnhancement>
+          <blueContrastEnhancement>
+            <minValue>0</minValue>
+            <maxValue>10461</maxValue>
+            <algorithm>StretchToMinimumMaximum</algorithm>
+          </blueContrastEnhancement>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+      <extent>
+        <xmin>407985</xmin>
+        <ymin>2120085</ymin>
+        <xmax>636015</xmax>
+        <ymax>2352915</ymax>
+      </extent>
+      <id>mexico_rgb20200323180232053</id>
+      <datasource>../../../../../../../../mexico_rgb</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>mexico_rgb</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=utm +zone=14 +datum=WGS84 +units=m +no_defs</proj4>
+          <srsid>3098</srsid>
+          <srid>32614</srid>
+          <authid>EPSG:32614</authid>
+          <description>WGS 84 / UTM zone 14N</description>
+          <projectionacronym>utm</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties>
+        <property key="identify/format" value="Value"/>
+      </customproperties>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="0"/>
+        <noDataList bandNo="2" useSrcNoData="0"/>
+        <noDataList bandNo="3" useSrcNoData="0"/>
+      </noData>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer opacity="1" alphaBand="-1" blueBand="3" greenBand="2" type="multibandcolor" redBand="1">
+          <rasterTransparency/>
+          <redContrastEnhancement>
+            <minValue>0</minValue>
+            <maxValue>17878</maxValue>
+            <algorithm>StretchToMinimumMaximum</algorithm>
+          </redContrastEnhancement>
+          <greenContrastEnhancement>
+            <minValue>0</minValue>
+            <maxValue>17553</maxValue>
+            <algorithm>StretchToMinimumMaximum</algorithm>
+          </greenContrastEnhancement>
+          <blueContrastEnhancement>
+            <minValue>0</minValue>
+            <maxValue>18179</maxValue>
+            <algorithm>StretchToMinimumMaximum</algorithm>
+          </blueContrastEnhancement>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+      <extent>
+        <xmin>226185</xmin>
+        <ymin>-3788415</ymin>
+        <xmax>456315</xmax>
+        <ymax>-3556485</ymax>
+      </extent>
+      <id>santiago_rgb20200323170735310</id>
+      <datasource>../../../../../../../../santiago_rgb.vrt</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>santiago_rgb</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=utm +zone=19 +datum=WGS84 +units=m +no_defs</proj4>
+          <srsid>3103</srsid>
+          <srid>32619</srid>
+          <authid>EPSG:32619</authid>
+          <description>WGS 84 / UTM zone 19N</description>
+          <projectionacronym>utm</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties>
+        <property key="identify/format" value="Value"/>
+      </customproperties>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="0"/>
+        <noDataList bandNo="2" useSrcNoData="0"/>
+        <noDataList bandNo="3" useSrcNoData="0"/>
+      </noData>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer opacity="1" alphaBand="-1" blueBand="3" greenBand="2" type="multibandcolor" redBand="1">
+          <rasterTransparency/>
+          <redContrastEnhancement>
+            <minValue>0</minValue>
+            <maxValue>33550</maxValue>
+            <algorithm>StretchToMinimumMaximum</algorithm>
+          </redContrastEnhancement>
+          <greenContrastEnhancement>
+            <minValue>0</minValue>
+            <maxValue>32049</maxValue>
+            <algorithm>StretchToMinimumMaximum</algorithm>
+          </greenContrastEnhancement>
+          <blueContrastEnhancement>
+            <minValue>0</minValue>
+            <maxValue>31497</maxValue>
+            <algorithm>StretchToMinimumMaximum</algorithm>
+          </blueContrastEnhancement>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer minimumScale="inf" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+      <extent>
+        <xmin>313425</xmin>
+        <ymin>-3747915</ymin>
+        <xmax>390585</xmax>
+        <ymax>-3646005</ymax>
+      </extent>
+      <id>urbFootprint_t320200323170900985</id>
+      <datasource>/media/DATA/Landsat/data/Santiago/vector/urbFootprint_t3.img</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>urbFootprint_t3</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=utm +zone=19 +datum=WGS84 +units=m +no_defs</proj4>
+          <srsid>3103</srsid>
+          <srid>32619</srid>
+          <authid>EPSG:32619</authid>
+          <description>WGS 84 / UTM zone 19N</description>
+          <projectionacronym>utm</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties>
+        <property key="embeddedWidgets/count" value="0"/>
+        <property key="identify/format" value="Value"/>
+      </customproperties>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="1"/>
+      </noData>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer opacity="1" alphaBand="-1" classificationMax="6" classificationMinMaxOrigin="CumulativeCutFullExtentEstimated" band="1" classificationMin="1" type="singlebandpseudocolor">
+          <rasterTransparency/>
+          <rastershader>
+            <colorrampshader colorRampType="EXACT" clip="0">
+              <item alpha="255" value="1" label="1" color="#ffff00"/>
+              <item alpha="255" value="2" label="2" color="#f3ff7d"/>
+              <item alpha="255" value="3" label="3" color="#c0ff00"/>
+              <item alpha="255" value="4" label="4" color="#73ff9f"/>
+              <item alpha="255" value="5" label="5" color="#00ff4c"/>
+              <item alpha="255" value="6" label="6" color="#2fb100"/>
+              <item alpha="255" value="7" label="7" color="#2734e8"/>
+            </colorrampshader>
+          </rastershader>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeGreen="251" colorizeOn="0" colorizeRed="255" colorizeBlue="4" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>10</blendMode>
+    </maplayer>
+    <maplayer minimumScale="inf" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+      <extent>
+        <xmin>443985</xmin>
+        <ymin>2106165</ymin>
+        <xmax>538695</xmax>
+        <ymax>2219055</ymax>
+      </extent>
+      <id>urbFootprint_t320200323180325435</id>
+      <datasource>/media/DATA/Landsat/data/Mexico/vector/urbFootprint_t3.img</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>urbFootprint_t3</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=utm +zone=14 +datum=WGS84 +units=m +no_defs</proj4>
+          <srsid>3098</srsid>
+          <srid>32614</srid>
+          <authid>EPSG:32614</authid>
+          <description>WGS 84 / UTM zone 14N</description>
+          <projectionacronym>utm</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties>
+        <property key="embeddedWidgets/count" value="0"/>
+        <property key="identify/format" value="Value"/>
+      </customproperties>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="1"/>
+      </noData>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer opacity="1" alphaBand="0" classificationMax="6" classificationMinMaxOrigin="CumulativeCutFullExtentEstimated" band="1" classificationMin="1" type="singlebandpseudocolor">
+          <rasterTransparency/>
+          <rastershader>
+            <colorrampshader colorRampType="DISCRETE" clip="0">
+              <item alpha="255" value="1" label="&lt;= 1" color="#ffff00"/>
+              <item alpha="255" value="2" label="1 - 2" color="#f3ff7d"/>
+              <item alpha="255" value="3" label="2 - 3" color="#c0ff00"/>
+              <item alpha="255" value="4" label="3 - 4" color="#73ff9f"/>
+              <item alpha="255" value="5" label="4 - 5" color="#00ff4c"/>
+              <item alpha="255" value="6" label="5 - 6" color="#2fb100"/>
+              <item alpha="255" value="7" label="6 - 7" color="#2734e8"/>
+            </colorrampshader>
+          </rastershader>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeGreen="251" colorizeOn="0" colorizeRed="255" colorizeBlue="4" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+        <rasterresampler maxOversampling="2" zoomedOutResampler="bilinear"/>
+      </pipe>
+      <blendMode>9</blendMode>
+    </maplayer>
+  </projectlayers>
+  <properties>
+    <Measurement>
+      <DistanceUnits type="QString">meters</DistanceUnits>
+      <AreaUnits type="QString">m2</AreaUnits>
+    </Measurement>
+    <SpatialRefSys>
+      <ProjectCRSProj4String type="QString">+proj=longlat +datum=WGS84 +no_defs</ProjectCRSProj4String>
+      <ProjectCrs type="QString">EPSG:4326</ProjectCrs>
+      <ProjectCRSID type="int">3452</ProjectCRSID>
+      <ProjectionsEnabled type="int">1</ProjectionsEnabled>
+    </SpatialRefSys>
+    <Paths>
+      <Absolute type="bool">false</Absolute>
+    </Paths>
+    <Gui>
+      <SelectionColorBluePart type="int">0</SelectionColorBluePart>
+      <CanvasColorGreenPart type="int">255</CanvasColorGreenPart>
+      <CanvasColorRedPart type="int">255</CanvasColorRedPart>
+      <SelectionColorRedPart type="int">255</SelectionColorRedPart>
+      <SelectionColorAlphaPart type="int">255</SelectionColorAlphaPart>
+      <SelectionColorGreenPart type="int">255</SelectionColorGreenPart>
+      <CanvasColorBluePart type="int">255</CanvasColorBluePart>
+    </Gui>
+    <Digitizing>
+      <DefaultSnapToleranceUnit type="int">2</DefaultSnapToleranceUnit>
+      <LayerSnappingList type="QStringList"/>
+      <LayerSnappingEnabledList type="QStringList"/>
+      <SnappingMode type="QString">current_layer</SnappingMode>
+      <AvoidIntersectionsList type="QStringList"/>
+      <LayerSnappingToleranceUnitList type="QStringList"/>
+      <LayerSnapToList type="QStringList"/>
+      <DefaultSnapType type="QString">off</DefaultSnapType>
+      <DefaultSnapTolerance type="double">0</DefaultSnapTolerance>
+      <LayerSnappingToleranceList type="QStringList"/>
+    </Digitizing>
+    <PositionPrecision>
+      <DecimalPlaces type="int">2</DecimalPlaces>
+      <Automatic type="bool">true</Automatic>
+    </PositionPrecision>
+    <Legend>
+      <filterByMap type="bool">false</filterByMap>
+    </Legend>
+  </properties>
+  <visibility-presets/>
+</qgis>
